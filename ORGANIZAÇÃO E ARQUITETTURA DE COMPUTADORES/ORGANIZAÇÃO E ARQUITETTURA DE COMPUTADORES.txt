@@ -1,0 +1,177 @@
+   ORGANIZAÇÃO E ARQUITETTURA DE COMPUTADORES
+...............................................
+
+Unidade 1 - História, conceitos e principais modelos utilizados na atualidade.
+
+A diferença entre estrutura e função do computador:
+
+   Estrutura:
+É o conjunto de dispositivos que compõem um computador;
+
+   Função:
+A função primordial do computador é executar programas. Para isso, sua estrutura precisa funcionar de forma organizada e harmônica.
+
+   
+
+
+
+   Histórico da arquitetura de computadores
+
+GERAÇÃO ZERO: COMPUTADORES MECÂNICOS
+
+Centenas de anos antes do surgimento dos computadores elétricos já existiam máquinas para realizar cálculos, chamadas de computadores mecânicos ou geração zero. A primeira calculadora mecânica foi criada em meados de 1642 pelo francês Blaise Pascal. A calculadora Pascaline era capaz de realizar cálculos de adição e subtração de forma simples, já divisão e multiplicação, por um sistema de repetição. A máquina funcionava pelo uso de uma manivela.
+
+Em 1672, Gottfried Leibniz aperfeiçoou a Pascaline, melhorando sua agilidade e acrescentando a função de raiz quadrada.
+
+Em 1801, foi criado o primeiro modelo que utilizava um tecido perfurado, capaz de ser programado de acordo com esses furos. Esta espécie de tear foi criada por Joseph-Marie Jacquard.
+
+A Máquina Analítica foi criada em 1834 tinha unidades de entrada e saída, unidade de memória e unidade de computação, similares à arquitetura utilizada nos dias de hoje.
+
+Em 1890, Herman Hollerith criou uma máquina que também utilizava a tecnologia de cartões perfurados, mas o seu modelo possuía pinos que transpassavam somente os furos dos cartões, podendo assim realizar os cálculos necessários.
+
+Em 1944, a IBM lançou o Mark I, computador que possuía uma estrutura gigantesca e era considerado lento, porém conseguia realizar cálculos extensos.
+
+PRIMEIRA GERAÇÃO: VÁLVULAS (1945-1955)
+
+Os primeiros computadores considerados digitais para uso geral contavam com a utilização de milhares de válvulas. A válvula era um dispositivo semelhante a uma lâmpada, feita de vidro transparente e totalmente fechada, com uma estrutura interna que continha eletrodos. Ao ser aquecida, o vácuo fazia com que os elétrons fossem transmitidos pela estrutura de metal para outro filamento, conhecido como efeito termoiônico. O problema das válvulas era que, devido ao seu superaquecimento, consumiam muita energia elétrica e queimavam constantemente.
+
+  // ENIAC: o primeiro computador digital
+
+O primeiro computador digital começou a ser construído durante a Segunda Guerra Mundial. O Laboratório de Pesquisa Balística (BRL) do Exército dos Estados Unidos tinha cerca de 200 pessoas realizando cálculos para auxiliar a artilharia. Porém, os cálculos podiam levar horas para ficarem prontos, processo este extremamente oneroso.
+Devido à necessidade de reduzir esse tempo, iniciou-se a construção do primeiro computador eletrônico digital de uso geral, o ENIAC (Electronic Numerical Integrator and Computer), pela parceria dos cientistas John Eckert e John Mauchly, ambos da Universidade da Pensilvânia. O projeto durou de 1943 a 1946, desta forma, não foi utilizado para o seu propósito inicial de auxiliar na guerra.
+
+O gigantesco computador pesava cerca de 30 toneladas, possuía mais de 18.000 válvulas e consumia mais de 140.000 kilowatts. Sua capacidade era decimal e permitia realizar cerca de 5.000 cálculos por segundo, porém, sua programação era manual e, para mudar o tipo de cálculo, era necessário reprogramar o equipamento alterando chaves e cabos. Utilizava cartões perfurados que na época eram fabricados pela IBM para processamento de dados.
+
+
+O ENIAC foi utilizado para outras finalidades, entre elas, analisar a viabilidade de um projeto da bomba termo nuclear de hidrogênio. Em 1955, foi desmontado e partes da sua estrutura estão expostas em diversos museus pelo mundo.
+
+
+  // A arquitetura de John Von Neumann
+
+Consultor do projeto ENIAC e professor de matemática na Universidade de Princeton, John Von Neumann acreditava que o processo de programação dos computadores poderia ser facilitado se os programas e os dados ficassem armazenados no mesmo espaço de memória (conceito de programa armazenado). Em 1946, Neumann começou a trabalhar no projeto do IAS, primeiro computador criado pelo Instituto de Estudos Avançados de Princeton (IAS).
+
+O IAS foi baseado na arquitetura de Von Neumann, possuía uma Unidade Central de Processamento que continha uma Unidade Lógica e Aritmética (CA) e uma Unidade de Controle do Programa (CC) que interagiam com a Memória Principal (M) e os Dispositivos de Entrada e Saída (E/S).
+
+De acordo com Von Neumann, cada item tinha a seguinte função:
+O IAS foi baseado na arquitetura de Von Neumann, possuía uma Unidade Central de Processamento que continha uma Unidade Lógica e Aritmética (CA) e uma Unidade de Controle do Programa (CC) que interagiam com a Memória Principal (M) e os Dispositivos de Entrada e Saída (E/S).
+
+De acordo com Von Neumann, cada item tinha a seguinte função:
+   -Memória principal: local onde ficam armazenados os programas utilizados e os dados;
+
+   -Unidade de Processamento (CPU):
+Unidade de controle: contém as instruções que devem ser executadas;
+Unidade lógica e aritmética: responsável por executar as instruções;
+
+   -Dispositivos de entrada e saída: por onde entram as informações inseridas pelo usuário. Faz a interface com equipamentos externos, como mouse e teclado, por exemplo.
+
+Essa arquitetura se tornou referência e é utilizada pela maioria dos computadores até os dias de hoje.
+
+      // EDVAC
+
+Em 1949, surgiu o EDVAC (Electronic Discrete Variable Automatic Computer), criado por Von Neumann e os mesmos criadores do ENIAC. No mesmo ano, na Universidade de Cambridge – no Reino Unido – foi criado o EDSAC (Electronic Delay Storage Automatic Calculator) por Maurice Wilker.
+
+Em 1951, os mesmos criadores do ENIAC apresentaram sua nova máquina: o UNIVAC1. Ele foi o primeiro computador comercial criado e foi instalado no escritório do censo dos Estados Unidos no mesmo ano. Não usava mais os conhecidos cartões perfurados, mas sim fita magnética.
+
+A IBM, que até então produzia e comercializava os cartões perfurados, lançou seu primeiro computador em 1953, o IBM 701, que utilizava a tecnologia da fita magnética. Posteriormente, a empresa lançou vários outros computadores, criando uma extensa linha de equipamentos.
+
+  // FORTRAN: primeira linguagem de programação
+
+Em 1957, surgiu a primeira linguagem de programação para computadores: FORTRAN (FORmula TRANslation). Desenvolvida por John Backus e sua equipe de 13 programadores, a linguagem era considerada de alto nível e foi utilizada pela IBM no modelo 704. Em seguida, outros fabricantes desenvolveram compiladores para o Fortran e conseguiram assim produzir diversos tipos de programas para seus computadores.
+
+
+  SEGUNDA GERAÇÃO: TRANSISTORES (1954-1965)
+
+O transistor era um dispositivo semicondutor, criado em 1947 para substituir as válvulas, porém, somente na década de 1950 começou a ser utilizado em computadores. A IBM foi pioneira no fornecimento da tecnologia e algumas empresas começaram a utilizá-la em pequenos computadores. Posteriormente, a IBM entrou no mercado com sua linha 7000. As vantagens da substituição das válvulas pelos transistores eram inúmeras: seu tamanho era menor, dissipava melhor o calor economizando energia elétrica e era mais resistente.
+
+      TERCEIRA GERAÇÃO: CIRCUITOS INTEGRADOS (1965-1980)
+
+O circuito integrado (CI) foi criado em 1958 e recebeu este nome pois integrava em sua estrutura de silício vários componentes como capacitores, resistores, transistores, diodos, entre outros. Tais componentes, até então, eram fabricados e instalados separadamente. O pequeno dispositivo revolucionou a eletrônica. Em 1964, a IBM lançou uma família de computadores que utilizava a tecnologia dos circuitos integrados: System/360.
+
+O modelo fez tanto sucesso que colocou a IBM como maior fornecedora de computadores da época, pois os programas eram compatíveis com os diversos modelos da mesma linha.
+
+  GERAÇÕES POSTERIORES: VLSI (1980-ATUAL)
+
+A década de 1980 foi responsável pela comercialização de computadores em larga escala para uso pessoal. Com o surgimento da tecnologia VLSI (Very Large Scale Integration), tornou-se possível colocar em um único chip milhões de transistores, fazendo com que os computadores fossem ainda menores, mais rápidos e mais baratos.
+
+Computadores capazes de executar múltiplas funções começaram a ser produzidos na década de 1990 e, de lá pra cá, surgiram computadores portáteis, computadores para carros e atualmente os computadores podem ser integrados a diversos objetos, tecnologia chamada de “internet das coisas” e a “computação vestível”, utilizada em roupas, relógios e outros produtos que se pode usar.
+
+
+
+
+
+  Organização de sistemas de computadores
+
+Um computador é um conjunto de módulos que possuem funções específicas e se comunicam para realizar processamento de dados. Esses módulos são: Unidade Central de Processamento, Memória e dispositivos de entrada e saída. A comunicação entre esses módulos é feita através de linhas de transmissão ou barramento (veremos esse item adiante).
+
+  UNIDADE CENTRAL DE PROCESSAMENTO (CPU)
+
+O processador, conhecido como Unidade Central de Processamento (CPU), é um chip instalado na placa-mãe do computador responsável por processar dados de acordo com instruções previamente armazenadas na memória principal.
+
+Muitos confundem esse termo com toda a estrutura contida no gabinete do computador, mas esse conceito está incorreto.
+
+O processador funciona de forma parecida ao cérebro humano. Ele executa tarefas que nos são perceptíveis e outras não. Por exemplo, não temos que lembrar constantemente de respirar, pois o processo é automático, mas se precisamos escovar os dentes precisamos nos lembrar (buscar na memória) de como fazê-lo.
+
+O processador é composto por uma Unidade de Controle e uma Unidade Lógica e Aritmética. Juntamente com a memória e os dispositivos de entrada e saída realizam o processo de busca, leitura, execução, processamento e gravação das instruções previamente armazenadas. Esse ciclo é conhecido como “buscar-decodificar-executar”.
+
+Os processadores em geral mantêm uma busca de instrução em uma sequência de endereço de memória mais alto. Por exemplo, se ele localizou uma palavra no local 100, na seguinte busca ele irá procurar no local 101, 102, 103 e adiante. Isso significa que a instrução lida foi carregada em um registrador de instrução (IR), e é lá que ficam as “ações” que o processador deve tomar nas próximas pesquisas.
+
+
+  UNIDADE DE CONTROLE, UNIDADE LÓGICA E       ARITMÉTICA, REGISTRADORES
+
+  // Unidade de Controle (UC)
+
+Podemos considerar que a Unidade de Controle (UC) é o cérebro do processador. Ela fica armazenada dentro do chip juntamente com a ULA e é responsável por controlar a operação da CPU. A UC busca as instruções na memória principal e as envia para a ULA, informando também a sequência em que elas devem ser executadas. Devemos lembrar que a UC não processa dados, ela apenas gerencia esses processos, servindo como ponte entre a memória e a ULA.
+
+  // Unidade Lógica e Aritmética (ULA)
+
+O local onde os dados são processados na CPU é chamado de Unidade Lógica e Aritmética (ULA). Ela tem a capacidade de executar diversos processos de acordo com a instrução recebida. Nos primeiros computadores, a quantidade de instruções era menor e a execução mais demorada, mas, com o passar do tempo, os programas de computadores foram projetados com o propósito de auxiliar o hardware a aumentar sua capacidade de processamento, tornando-se mais rápido para o usuário.
+
+// Registradores
+
+Os registradores são um conjunto de unidades de armazenamento, também conhecidos como memória de rascunho. Eles podem ser divididos em dois tipos: visíveis ao usuário e controle e estado.
+
+// Registradores visíveis ao usuário
+
+Podem ser acessados através de linguagem de programação e são classificados como:
+
+Registrador de uso geral = Utilizado para realizar funções diversas e armazenar dados e/ou endereços;
+
+Registrador de dados = Dedicado apenas para o registro de dados;
+
+Registrador de endereços = Dedicado à endereçamento em geral;
+
+Registrador de código de condução = Armazena os resultados das operações em forma de bits.
+
+  // Registradores de controle e estado
+
+Os registradores são locais de armazenamento dentro da CPU. Neles ficam guardados diversas informações, incluindo os resultados gerados pela ULA, podendo ou não serem enviados para a memória, dependendo do que for solicitado. Existem diversos tipos de registradores, sendo os principais (STALLINGS, 2010, p. 15):
+
+Registrador de Buffer de Memória (MBR) = Determina a quantidade de bits (palavra) a ser enviada ou recebida da memória ou da E/S;
+
+Registrador de Endereço de Memória (MAR) =
+Especifica o endereço da palavra (da MBR) na memória;
+
+Registrador da Instrução (IR) = Contém a instrução que está sendo executada;
+
+Registrador de Buffer de Instrução (IBR) = 
+Mantém temporariamente a próxima instrução a ser executada;
+
+Contador de Programa (PC) = Contém o endereço da próxima instrução a ser trazida da memória.
+
+MEMÓRIA PRIMÁRIA, MEMÓRIA SECUNDÁRIA, ENTRADA E SAÍDA
+
+// Memória primária
+
+A memória primária tem como principal função manter disponíveis as informações que serão utilizadas pelo processador. Este tipo de memória não pode ser acessada pelo usuário para guardar arquivos, o acesso é feito pela unidade de controle da CPU.
+
+A maioria das memórias primárias são voláteis, ou seja, temporárias. Elas mantêm as informações ativas enquanto estão em contato com a energia elétrica e vão perdendo gradativamente quando a energia é desligada. Por esse motivo, sua capacidade de armazenamento é bem menor do que as memórias secundárias (não voláteis). Veremos a seguir os tipos de memória primária:
+
+// Memória RAM
+
+A memória RAM (Random Access Memory) é um chip composto por transistores e capacitores que faz uma leitura em código binário. A capacidade de armazenamento e a velocidade do processamento dos dados vão depender do barramento do periférico.
+
+A memória RAM é dividida em dois tipos:
+
+SRAM (Static Random Access Memory) :  Memória estática, rápida e volátil. Essa memória perde as informações quando a energia é desligada;
+
+

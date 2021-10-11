@@ -1,0 +1,69 @@
+#Intro a criação de Websites com HTML5 e CSS3
+
+          Definiçao
+
+Html 1 - 1991
+Hmtl 2 - 1995
+Html 3 - 1997   Criador: Tim Berners-Lee   
+Html 4 - 1997
+Html 5 - 2014
+
+          Elemento HTML
+
+    Abrindo a tag        Fechando a tag         
+ __________|__________       ___|__ 
+|                     |     |      |
+ <h1 class = "titulo"> Título</h1>
+|    |______________| |______|     |
+|           |             |        |
+|       Atributo       Conteúdo    |
+|                                  |
+|__________________________________|
+                 |
+          Elemento HTML 
+
+ 
+           Estrutura básica
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta>
+  <title></title>
+
+
+       SEMANTICA
+
+<section> = seção generica de conteúdo, lista de artigos
+
+<header> = Cabeçalho da página
+
+<article> conteúdo relevante dentro da página
+
+<aside>= Conteúdo relacionado ao conteúdo principal da página
+
+<footer> Rodapé da página ou debaixo da página
+
+<h1>-<h6> Tamanhos dos títulos
+
+
+       TEXTOS E LINKS
+
+<h1>Título da página</h1>
+
+<h2>Título de seção</h2>
+
+<h3>Títullo de artigo</h3>
+
+<p>Conteúdo do artigo.</p>
+
+
+        TAGS PARA LINKS
+
+<a>Link</a>
+
+<a href="linkedin.com/in/vilaboim">Linkedin</a>
+
+<a href="mailto:lucas@vilaboim.com">E-mail</a>
+
+<a target="_blank">Link</a>
