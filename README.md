@@ -1,4 +1,4 @@
-# EnzoFire
+# Projeto Git/GitHub Dio
 Projeto Git/GitHub Dio
 
 A DIO tem sido uma plataforma essencial na minha jornada de transição para a área de tecnologia. Desde que comecei meus estudos por lá, tenho adquirido não apenas conhecimento técnico de qualidade, mas também descoberto uma nova paixão: o universo Dev e o poder da tecnologia.
