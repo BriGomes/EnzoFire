@@ -1,9 +1,8 @@
 # EnzoFire
 Projeto Git/GitHub Dio
 
-Como a Dio está mundando minha vida! 
-Essa plataforma maravilhosa, tem me trazido muito conhecimento e oportunidades no mundo Dev e descobrir uma carreira linda com a Tech.
-Com a DIO tem cursos, certificados, reconhecimento pelo mercado de trabalho, e a oportundade de muitos seletivos.
-A Dio tem me agregado muito com conhecimentos e uma ampla zona de oportunidas, a melhor no quesito de capacitar.
+A DIO tem sido uma plataforma essencial na minha jornada de transição para a área de tecnologia. Desde que comecei meus estudos por lá, tenho adquirido não apenas conhecimento técnico de qualidade, mas também descoberto uma nova paixão: o universo Dev e o poder da tecnologia.
 
-Agrupei alguns materias de estudos que aprendi no desenvolver da longa caminhada de estudos na DIO.
+Com cursos atualizados, certificados reconhecidos pelo mercado, bootcamps desafiadores e oportunidades em processos seletivos, a DIO tem me impulsionado a crescer profissionalmente e a acreditar cada vez mais no meu potencial. É uma plataforma que não apenas ensina, mas capacita e inspira.
+
+Reuni abaixo algumas das matérias e habilidades que desenvolvi ao longo dessa caminhada na DIO — que ainda está só começando.
